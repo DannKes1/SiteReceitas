@@ -88,3 +88,9 @@ h2 {
   right: 10px;
 }
 
+.carousel-text {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #525252;
+  margin-top: 20px;
+}
