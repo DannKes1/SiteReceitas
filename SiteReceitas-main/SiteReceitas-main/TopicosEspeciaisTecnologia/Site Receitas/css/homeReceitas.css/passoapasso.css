@@ -21,29 +21,33 @@
 .imagem_container {
   position: relative;
   display: inline-block; /* Ajuste conforme necessário para o layout */
+  width: 100%;
+  height: auto;
 }
 
 /* Estilo da imagem */
 .imagem_container img {
   width: 100%; /* Ajuste a largura conforme necessário */
   height: auto; /* Mantém a proporção da imagem */
+  border-radius: 8px;
 }
 
 /* Estilo do texto sobre a imagem */
 .texto_overlay {
   position: absolute;
-  bottom: 195px; /* Ajuste conforme a posição desejada */
+  bottom: 330px; /* Ajuste conforme a posição desejada */
   left: 100px; /* Ajuste conforme a posição desejada */
   color: rgb(255, 255, 255); /* Cor do texto */
   /* Fundo semitransparente para legibilidade */
   padding: 10px; /* Espaçamento interno */
   border-radius: 5px; /* Borda arredondada opcional */
-  font-size: 1.35rem; /* Tamanho da fonte */
+  font-size: 1.35vw; /* Tamanho da fonte */
   font-weight: bold; /* Peso da fonte */
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif, Courier, monospace,
     "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   letter-spacing: 2px;
+  text-shadow: 1px 1px #000000;
 }
 
 .receitas {
@@ -92,4 +96,47 @@
   margin-top: 10px; /* Espaço acima do parágrafo */
   text-transform: uppercase; /* Transformação de texto para maiúsculas */
   letter-spacing: 1px; /* Espaçamento entre as letras */
+}
+
+@media (max-width: 1200px) {
+  .texto_overlay {
+    font-size: 2vw; /* Ajusta o tamanho do texto em telas menores */
+    bottom: 100px; /* Ajuste conforme a posição desejada */
+    left: 10px; /* Ajuste conforme a posição desejada */
+    position: relative;
+  }
+}
+@media (max-width: 1000px) {
+  .texto_overlay {
+    font-size: 2vw; /* Ajusta o tamanho do texto em telas menores */
+    bottom: 80px; /* Ajuste conforme a posição desejada */
+    left: 10px; /* Ajuste conforme a posição desejada */
+    position: relative;
+  }
+}
+
+@media (max-width: 800px) {
+  .texto_overlay {
+    font-size: 2vw; /* Ajusta o tamanho do texto em telas menores */
+    bottom: 70px; /* Ajuste conforme a posição desejada */
+    left: 8pxpx; /* Ajuste conforme a posição desejada */
+    position: relative;
+  }
+}
+
+@media (max-width: 700px) {
+  .texto_overlay {
+    font-size: 1.8vw; /* Ajusta o tamanho do texto em telas muito pequenas */
+    bottom: 60px; /* Ajuste conforme a posição desejada */
+    left: 8pxpx; /* Ajuste conforme a posição desejada */
+    position: relative;
+  }
+}
+@media (max-width: 500px) {
+  .texto_overlay {
+    font-size: 1.8vw; /* Ajusta o tamanho do texto em telas muito pequenas */
+    bottom: 50px; /* Ajuste conforme a posição desejada */
+    left: 8pxpx; /* Ajuste conforme a posição desejada */
+    position: relative;
+  }
 }
