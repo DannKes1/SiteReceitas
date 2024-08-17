@@ -5,6 +5,12 @@
   max-width: 800px;
   margin: 0 auto; /* Centraliza a seção na página */
 }
+.preparo-container {
+  display: grid;
+  gap: 20px; /* Espaço entre as colunas */
+  max-width: 800px;
+  margin: 0 auto; /* Centraliza a seção na página */
+}
 /*Modo de preparo */
 .ingredientes h3 {
   font-size: 1.5rem;

@@ -14,14 +14,9 @@ document.querySelector(".carousel-next").addEventListener("click", () => {
   carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
 });
 
-
 const carouselText = document.getElementById("carousel-text");
 
-const texts = [
-  "Descrição do Doce 1",
-  "Descrição do Doce 2",
-  "Descrição do Doce 3"
-];
+const texts = ["Bolo Chocolate", "Descrição do Doce 2", "Descrição do Doce 3"];
 
 let currentIndex1 = 0;
 
@@ -40,8 +35,7 @@ function updateCarousel() {
   carouselText.textContent = texts[currentIndex1];
 }
 
-function updateCarousel() 
-{
+function updateCarousel() {
   // Atualizar posição das imagens
   carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
 
