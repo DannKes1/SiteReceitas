@@ -3,7 +3,8 @@ const recipes = {
     "http://127.0.0.1:5500/SiteReceitas-main/TopicosEspeciaisTecnologia/Site%20Receitas/receitasHome.html/receita02.html",
   "torta de limão":
     "http://127.0.0.1:5500/SiteReceitas-main/TopicosEspeciaisTecnologia/Site%20Receitas/receitasHome.html/receita01.html",
-  // Adicione mais receitas e suas páginas aqui
+  "receitas de doces":
+    "http://127.0.0.1:5500/SiteReceitas-main/TopicosEspeciaisTecnologia/Site%20Receitas/html/doces.html",
 };
 
 function searchRecipes() {
