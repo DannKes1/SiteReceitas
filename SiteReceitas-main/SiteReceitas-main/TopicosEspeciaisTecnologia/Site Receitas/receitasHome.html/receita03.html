@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Um site dedicado a receitas de doces e salgados, oferecendo uma variedade de pratos para todos os gostos.">
+  <link rel="stylesheet" href="../css/home.css">
+  <link rel="stylesheet" href="../css/homeReceitas.css/passoapasso.css">
+  <link rel="stylesheet" href="../css/homeReceitas.css/ingredientes.css">
+
+  <title>Livro de Receitas</title> <!-- nome do site-->
+</head>
+
+<body> <!-- corpo do site -->
+  <header class="header">
+    <img class="logo" src="../ImagensReceitas/L’LOBO.png" alt="Receitas">
+    <nav>
+      <ul class="header_menu">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../html/doces.html">Receita de Doces</a></li>
+        <li><a href="../html/salgados.html">Receita de Salgados</a></li>
+      </ul>
+    </nav>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Pesquisar..." class="search-input">
+      <button type="button" class="search-button" onclick="searchRecipes()">
+        <img src="../ImagensReceitas/homeReceitas/lupapng.jpg" alt="Buscar">
+      </button>
+    </div>
+  </header>
+
+  <main class="passo_apasso">
+    <div class="iamgem_container">
+      <img src="../ImagensReceitas/pageDoces/pudim-de-chocolate.webp" alt="Receitas">
+      <div class="texto_overlay">PUDIM DE CHOCOLATE</div>
+    </div>
+    <p>
+      Se um pudim de chocolate cremoso e irresistível é o que você deseja, então seu momento chegou.<br> Este pudim de chocolate é sucesso garantido e vai conquistar seu paladar com sua textura suave e sabor intenso.<br> Experimente!
+    </p>
+  </main>
+  <section class="receitas">
+    <section class="margem">
+      <h2>PARA O PUDIM</h2>
+      <p>INGREDIENTES</p>
+    </section>
+  </section>
+
+  <section class="ingredientes-container">
+    <div class="ingredientes">
+      <ul>
+        <li> 1 lata de leite condensado</li>
+        <li> 1 lata de leite (a mesma medida da lata de leite condensado)</li>
+        <li> 1 xícara de chá de chocolate em pó</li>
+        <li> 3 ovos
+        </li>
+        <li> 1 xícara de açúcar (para o caramelo)</li>
+        <li> 1/2 xícara de água (para o caramelo)</li>
+        <li> 1 pitada de sal</li>
+      </ul>
+    </div>
+    <div class="info-adicional">
+      <p>Autor: <strong>L'LOBO</strong></p>
+      <p>Tempo de preparo: <strong>Até 3h</strong></p>
+      <p>Serve:<strong> 8 porções</strong> </p>
+    </div>
+  </section>
+
+  <section class="receitas">
+    <section class="margem">
+      <h2>MODO DE PREPARO</h2>
+    </section>
+  </section>
+  <section class="preparo-container">
+    <div class="ingredientes">
+      <ul>
+        <li> <strong>1. </strong>Em uma panela, derreta o açúcar em fogo baixo até obter um caramelo dourado.</li>
+        <li> <strong>2. </strong>Adicione a água com cuidado e mexa até o caramelo ficar liso.</li>
+        <li><strong>3. </strong>Despeje o caramelo em uma forma de pudim, espalhando bem no fundo e nas laterais. Reserve.</li>
+        <li><strong>4. </strong>No liquidificador, bata o leite condensado, o leite, os ovos e o chocolate em pó até obter uma mistura homogênea.</li>
+        <li><strong>5. </strong>Despeje essa mistura na forma caramelizada.</li>
+        <li><strong>6. </strong>Cubra a forma com papel-alumínio e leve ao forno preaquecido a 180°C, em banho-maria, por cerca de 1 hora e 30 minutos, ou até que o pudim esteja firme.</li>
+        <li><strong>7. </strong>Para verificar se está pronto, faça o teste do palito: insira um palito no pudim e, se sair limpo, o pudim está pronto.</li>
+        <li><strong>8. </strong>Retire do forno e deixe esfriar completamente antes de levar à geladeira por pelo menos 2 horas.</li>
+        <li><strong>9. </strong>Passe uma faca ao redor da forma para soltar o pudim.</li>
+        <li><strong>10. </strong>Desenforme em um prato grande e sirva bem gelado.</li>
+      </ul>
+    </div>
+  </section>
+
+
+
+
+
+
+  <footer class="footer">
+    <p>&copy; 2024 Livro de Receitas. Todos os direitos reservados.</p>
+    <nav>
+      <ul class="footer_menu">
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="../html/sobrenos.html">Sobre Nós</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script src="../javascrip/pesquisa.js"></script>
+</body>

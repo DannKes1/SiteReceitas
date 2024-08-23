@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Um site dedicado a receitas de doces e salgados, oferecendo uma variedade de pratos para todos os gostos.">
+  <link rel="stylesheet" href="../css/home.css">
+  <link rel="stylesheet" href="../css/homeReceitas.css/passoapasso.css">
+  <link rel="stylesheet" href="../css/homeReceitas.css/ingredientes.css">
+
+  <title>Livro de Receitas</title> <!-- nome do site-->
+</head>
+
+<body> <!-- corpo do site -->
+  <header class="header">
+    <img class="logo" src="../ImagensReceitas/L’LOBO.png" alt="Receitas">
+    <nav>
+      <ul class="header_menu">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../html/doces.html">Receita de Doces</a></li>
+        <li><a href="../html/salgados.html">Receita de Salgados</a></li>
+      </ul>
+    </nav>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Pesquisar..." class="search-input">
+      <button type="button" class="search-button" onclick="searchRecipes()">
+        <img src="../ImagensReceitas/homeReceitas/lupapng.jpg" alt="Buscar">
+      </button>
+    </div>
+  </header>
+
+  <main class="passo_apasso">
+    <div class="iamgem_container">
+      <img src="../ImagensReceitas/pageSalgados/PaoBatataDoce.jpg" alt="Receitas">
+      <div class="texto_overlay">PÃO DE BATATA DOCE</div>
+    </div>
+    <p>
+
+      Se um pão de batata doce macio e saboroso é o que você procura, está prestes a encontrar o seu favorito.<br> Este pão de batata doce é sucesso garantido e vai conquistar todos à mesa com seu sabor delicioso e textura irresistível. Experimente!
+    </p>
+  </main>
+  <section class="receitas">
+    <section class="margem">
+      <h2>PARA O PÃO</h2>
+      <p>INGREDIENTES</p>
+    </section>
+  </section>
+
+  <section class="ingredientes-container">
+    <div class="ingredientes">
+      <ul>
+        <li> 500g de batata-doce cozida e amassada</li>
+        <li> 500g de farinha de trigo</li>
+        <li> 10g de fermento biológico seco (ou 30g de fermento fresco)</li>
+        <li> 2 colheres de sopa de açúcar</li>
+        <li> 1 colher de chá de sal</li>
+        <li> 50g de manteiga em temperatura ambiente</li>
+        <li> 2 ovos</li>
+        <li> 200ml de leite morno</li>
+        <li> 1 gema para pincelar</li>
+      </ul>
+    </div>
+    <div class="info-adicional">
+      <p>Autor: <strong>L'LOBO</strong></p>
+      <p>Tempo de preparo: <strong>Até 2:30H</strong></p>
+      <p>Serve:<strong> 10 porções</strong> </p>
+    </div>
+  </section>
+
+  <section class="receitas">
+    <section class="margem">
+      <h2>MODO DE PREPARO</h2>
+    </section>
+  </section>
+  <section class="preparo-container">
+    <div class="ingredientes">
+      <ul>
+        <li> <strong>1. </strong>Em uma tigela, misture o fermento biológico seco com o açúcar e o leite morno. Deixe descansar por 10 minutos até formar uma espuma.</li>
+        <li> <strong>2. </strong>Acrescente a batata-doce amassada, os ovos, a manteiga, o sal e misture bem.</li>
+        <li><strong>3. </strong>Aos poucos, adicione a farinha de trigo, sovando até obter uma massa lisa e homogênea. Se necessário, adicione mais farinha para dar o ponto.</li>
+        <li><strong>4. </strong>Cubra a massa com um pano e deixe descansar em um local morno por cerca de 1 hora, ou até que a massa dobre de volume.</li>
+        <li><strong>5. </strong>Após o descanso, divida a massa em porções e modele os pães no formato desejado (pode ser bolinhas ou pãezinhos alongados).</li>
+        <li><strong>6. </strong>Coloque os pães em uma assadeira untada ou forrada com papel manteiga, deixando espaço entre eles.</li>
+        <li><strong>7. </strong>Cubra os pães novamente e deixe descansar por mais 30 minutos.</li>
+        <li><strong>7. </strong>Preaqueça o forno a 180°C e Pincele os pães com a gema batida e leve ao forno por cerca de 25 a 30 minutos, ou até que estejam dourados.</li>
+        <li><strong>7. </strong>Retire os pães do forno e deixe esfriar sobre uma grade.
+        </li>
+        <li></li>
+        <li><strong>OBS:</strong> Sirva os pães de batata-doce ainda quentes ou em temperatura ambiente. Eles são perfeitos para acompanhar café, chá ou como base para sanduíches.</li>
+      </ul>
+    </div>
+  </section>
+
+
+
+
+  <footer class="footer">
+    <p>&copy; 2024 Livro de Receitas. Todos os direitos reservados.</p>
+    <nav>
+      <ul class="footer_menu">
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="../html/sobrenos.html">Sobre Nós</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script src="../javascrip/pesquisa.js"></script>
+</body>
